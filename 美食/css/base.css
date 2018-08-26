@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	/*-webkit-box-sizing: border-box;*/
+	box-sizing: border-box;
+	/*默认点击高亮去掉*/
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	/*禁止用户文本字体调整，防止把页面错乱*/
+	-webkit-text-size-adjust: none;
+	font-family: " PingFang-SC-Medium";
+}
+a {
+	text-decoration: none;
+	color: #333333;
+}
+

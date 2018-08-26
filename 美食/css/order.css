@@ -1,0 +1,105 @@
+@import url("base.css");
+@import url("index.css");
+body {
+	background: #F4F4F4;
+}
+.header {
+	width: 100%;
+	height: 0.88rem;
+	background: -webkit-linear-gradient(left ,#fb0d12 , #e34e31);
+	font-size: 0.3rem;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 0.88rem;
+	margin-bottom: 0.24rem;
+}
+.order-list {
+	width: 7rem;
+	height: 2.14rem;
+	margin: 0 auto;
+	margin-bottom: 0.24rem;
+
+}
+.order-list li {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	font-size: 0.22rem;
+	padding: 0.24rem;
+	box-sizing: border-box;
+	background: #FFFFFF;
+	border-radius: 0.1rem;
+	margin-bottom: 0.24rem;
+}
+.list-left, .list-left img {
+	width: 1.36rem;
+	height: 1.36rem;
+	
+}
+.list-right {
+	flex: 1;
+	height: 100%;
+	padding-left: 0.24rem;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.list-right .title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.list-right .data {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+} 
+.list-right .star {
+	height: 0.31rem;
+	width: 1.6rem;
+	position: relative;
+}
+.list-right .star, .stargray ,.stargray img,.staryellow img{
+	height: 0.31rem;
+	width: 1.6rem;
+}
+.staryellow {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 80%;
+	overflow: hidden;
+}
+.btns {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.list-right .btns img{
+	width: 1.2rem;
+	height: 0.37rem;
+	margin-right: 0.7rem;
+}
+.list-right>.title > #h1one {
+	font-size: 0.26rem;
+	font-weight: 600;
+	color: #6E6E6E;
+}
+.list-right>.title > span {
+	color: #BCBCBC;
+}
+.list-right>.data > span:nth-child(2) {
+	color: #F21C12;
+	font-size: 0.3rem;
+	font-weight: 600;
+}
+.list-right>.data>span>img {
+	width: 0.24rem;
+	height: 0.26rem;
+	margin-right: 0.24rem;
+}
+.list-right>.data > span:nth-child(1) {
+	color: #7E7E7E;
+	font-size: 0.22rem;
+}

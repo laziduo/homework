@@ -1,0 +1,161 @@
+@import url("base.css");
+@import url("index.css");
+body {
+	background: #F4F4F4;
+}
+
+.myheader {
+	width: 100%;
+	height: 2.04rem;
+	background: -webkit-linear-gradient(left ,#fb0d12 , #e34e31);
+	display: flex;
+	justify-content: space-between;
+	padding: 0.24rem;
+	box-sizing: border-box;
+	font-size: 0.3rem;
+	color: #FFFFFF;
+}
+.myheader i,.myheader h1 {
+	font-size: 0.3rem;
+	color: #FFFFFF;
+}
+.my-top {
+	width: 7rem;
+	height: 1.87rem;
+	background: #FFFFFF;
+	position: absolute;
+	top: 0.98rem;
+	left: 0.24rem;
+	border-radius: 0.1rem;
+	padding: 0.24rem;
+	box-sizing: border-box;
+	display: flex;
+    justify-content: flex-start;
+}
+.my-top .myinfo h1{
+	font-size: 0.26rem;
+	color: #F21D12;
+	
+}
+.my-top .myinfo .vip {
+	width: auto;
+	height: 0.56rem;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.my-top .myinfo .vip > img {
+	width: 0.56rem;
+	height: 0.33rem;
+	margin-left: 0.12rem;
+	margin-top: 0.09rem;
+}
+.my-top .myphoto,.my-top .myphoto img{
+	width: 1.32rem;
+	height: 1.32rem;
+	border-radius: 0.66rem;
+}
+.my-top .myphoto {
+	margin-right: 0.24rem;
+}
+.my-top .myinfo{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between
+}
+.myinfo .star {
+	position: relative;
+	height: 0.31rem;
+	width: 1.6rem;
+}
+.stargray,.stargray img,.staryellow img{
+	height: 0.31rem;
+	width: 1.6rem;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.staryellow {
+	width: 80%;
+	height: 0.31rem;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.myinfo .phone ,.myinfo .phone span{
+	width: 100%;
+	height: 0.3rem;
+}
+.myinfo .phone span {
+	display: block;
+	width: 100%;
+	height: 0.3rem;
+}
+.myinfo .phone i {
+	font-size: 0.22rem;
+	color: rgba(0,0,0,0.5);
+	float: left;
+}
+.mymoney {
+    width: 7rem;
+    height: 1.18rem;
+    background: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-radius: 0.1rem;
+    margin-bottom: 0.24rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+   
+}
+.mymoney div {
+	font-size: 0.26rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 0.59rem;
+}
+.mymoney div span {
+     height: 0.4rem;
+     position: relative;
+}
+.mymoney div:nth-child(2) span {
+	font-size: 0.26rem;
+	color: rgba(0,0,0,0.7);
+}
+.mymoney div img {
+    width: 0.4rem;
+    height: 0.4rem;
+    /*position: absolute;
+    left: 0;
+    top: 0;*/
+}
+.list {
+	width: 7rem;
+	height: 2.76rem;
+	background: #FFFFFF;
+	margin: 0 auto 0.24rem;
+	border-radius: 0.1rem;
+	font-size: 0.22rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+}
+.list li {
+	border-bottom: 1px solid #EAE8E8;
+	width: 100%;
+	height: 0.92rem;
+	line-height: 0.92rem;
+	vertical-align: middle;
+
+}
+.list li img {
+	width: 0.24rem;
+	height: 0.30rem;
+	margin-right: 0.2rem;
+	margin-top: 0.3rem;
+}
